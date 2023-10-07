@@ -40,6 +40,23 @@ if(choix==1):
                    elif (choixparamrectangle == 3):
                        exit()
 
+while True:
+        print("1. Option 1")
+        print("2. Option 2")
+        print("3. Exit")
+
+        user_choice = input("Please choose an option (1/2/3): ")
+
+        if user_choice == "1":
+            print("1. hi")
+        elif user_choice == "2":
+            print("2.yo")
+        elif user_choice == "3":
+            print("Exiting program...")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 3.")
+
 
 
 
