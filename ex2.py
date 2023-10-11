@@ -11,8 +11,8 @@ while True:
     choix = str(input("Veuillez faire le choix de votre département.\n"))
 
     if choix == "C":
-        print("1. Représentants")
-        print("2. Vendeurs")
+        print("1. Représentants. (R)")
+        print("2. Vendeurs. (V)")
         print("3. Sortir du programme.(E)")
         choix2 = str(input("Veuillez faire le choix de votre employé.\n"))
         if choix2 == "R":
@@ -25,8 +25,8 @@ while True:
             exit()
 
     elif choix == "P":
-        print("1. Producteurs")
-        print("2. Affectes a la manutention")
+        print("1. Producteurs. (P)")
+        print("2. Affectes a la manutention. (M)")
         print("3. Sortir du programme.(E)")
         choix2 = str(input("Veuillez faire le choix de votre employé.\n"))
         if choix2 == "P":
